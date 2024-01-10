@@ -1,11 +1,15 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   background-color: #2d3250;
-  color: #f6b17a;
+  color: #f6b17a; */
+  outline: 1px red dashed;
 }
 
-html,
+/* html, */
 body {
+  background-color: #2d3250;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -19,14 +23,23 @@ body {
 }
 .nav a {
   display: inline-block;
-  padding: 5em;
+  padding: 3em;
   color: #7077a1;
   text-decoration: none;
 }
 
 .main-header {
-    background-color: #424769;
-    background-blend-mode: multiply;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  background-color: #424769;
+  background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
+}
+
+#nav_bar {
+  justify-content: space-evenly;
+  display: flex;
+  /* align-items: center; */
 }
