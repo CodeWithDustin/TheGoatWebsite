@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  background-color: #2d3250;
+  color: #f6b17a;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 5em;
+  color: #7077a1;
+  text-decoration: none;
+}
+
+.main-header {
+    background-color: #424769;
+    background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
