@@ -50,11 +50,18 @@ a:hover {
 }
 
 .main_text_paragraph {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-top: 20px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .main_text_footer_image {
+  display: flex;
+  justify-content: center;
+}
+.main_text_footer_text {
   display: flex;
   justify-content: center;
 }
@@ -78,6 +85,16 @@ a:hover {
 }
 
 .about_main_image {
+  display: flex;
+  justify-content: center;
+}
+
+.about_text_synops {
+  display: flex;
+  justify-content: center;
+}
+
+.about_ESO_image {
   display: flex;
   justify-content: center;
 }
