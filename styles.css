@@ -54,6 +54,11 @@ a:hover {
   padding-right: 150px;
 }
 
+.main_text_footer_image {
+  display: flex;
+  justify-content: center;
+}
+
 .about_main_text {
   display: flex;
   flex-direction: column;
