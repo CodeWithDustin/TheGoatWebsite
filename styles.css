@@ -5,6 +5,11 @@ body {
   padding: 0;
 }
 
+@media (min-width: 600px) {
+  main {
+    flex-wrap: nowrap;
+  }
+  
 .main_header {
   background-color: #424769;
   display: flex;
